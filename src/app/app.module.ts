@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ButtonModule } from 'primeng/button';
+import { LightboxModule } from 'primeng/lightbox';
 import { DragDropModule } from 'primeng/dragdrop';
 import { AccordionModule } from 'primeng/accordion';
 
@@ -14,7 +15,7 @@ import { CardComponent } from './card/card.component';
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, AccordionModule, DragDropModule ],
+  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, LightboxModule, AccordionModule, DragDropModule ],
   declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent ],
   bootstrap:    [ AppComponent ]
 })
