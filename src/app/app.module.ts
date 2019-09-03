@@ -17,11 +17,13 @@ import { BoardComponent } from './board/board.component';
 import { TecnologyComponent } from './tecnology/tecnology.component';
 import { CultureComponent } from './culture/culture.component';
 import { MilitaryComponent } from './military/military.component';
+import { DeckDiscoveryComponent } from './deck-discovery/deck-discovery.component';
+import { DeckColoniesComponent } from './deck-colonies/deck-colonies.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, LightboxModule, AccordionModule, DragDropModule ],
-  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent, TecnologyComponent, CultureComponent, MilitaryComponent ],
+  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent, TecnologyComponent, CultureComponent, MilitaryComponent, DeckDiscoveryComponent, DeckColoniesComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
