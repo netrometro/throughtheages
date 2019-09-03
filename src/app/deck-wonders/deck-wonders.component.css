@@ -1,0 +1,7 @@
+.deck {
+  height: 300px;
+
+  overflow-y: auto;
+
+  text-align: center;
+}
