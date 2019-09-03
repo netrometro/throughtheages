@@ -13,11 +13,12 @@ import { MenubarComponent } from './menubar/menubar.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { CardComponent } from './card/card.component';
 import { HandplayerComponent } from './handplayer/handplayer.component';
+import { BoardComponent } from './board/board.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, LightboxModule, AccordionModule, DragDropModule ],
-  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent ],
+  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
