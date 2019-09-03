@@ -14,11 +14,14 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { CardComponent } from './card/card.component';
 import { HandplayerComponent } from './handplayer/handplayer.component';
 import { BoardComponent } from './board/board.component';
+import { TecnologyComponent } from './tecnology/tecnology.component';
+import { CultureComponent } from './culture/culture.component';
+import { MilitaryComponent } from './military/military.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, LightboxModule, AccordionModule, DragDropModule ],
-  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent ],
+  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent, TecnologyComponent, CultureComponent, MilitaryComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
