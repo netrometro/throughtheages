@@ -9,7 +9,6 @@
 
 .line {
   display: inline-block;
+  width: 100px;
   float: none;
-  
-  padding: 5px;
 }
