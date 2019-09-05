@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BoardTComponent implements OnInit {
 
+  
+
   constructor() { }
 
   ngOnInit() {
