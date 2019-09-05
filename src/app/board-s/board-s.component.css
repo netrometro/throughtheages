@@ -1,6 +1,6 @@
-.deck {
+.board-s {
   display: inline-block;
-  width: 84px;
+  width: 430px;
   height: 340px;
   
   min-height: 340px;
@@ -8,9 +8,5 @@
 
   border: 1px solid black;
 
-  background-color: rgba(100, 0, 100, 0.4);
-}
-
-app-card {
-  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
 }

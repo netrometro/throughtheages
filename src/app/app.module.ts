@@ -20,11 +20,13 @@ import { MilitaryComponent } from './military/military.component';
 import { DeckDiscoveryComponent } from './deck-discovery/deck-discovery.component';
 import { DeckColoniesComponent } from './deck-colonies/deck-colonies.component';
 import { DeckWondersComponent } from './deck-wonders/deck-wonders.component';
+import { BoardSComponent } from './board-s/board-s.component';
+import { BoardTComponent } from './board-t/board-t.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, LightboxModule, AccordionModule, DragDropModule ],
-  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent, TecnologyComponent, CultureComponent, MilitaryComponent, DeckDiscoveryComponent, DeckColoniesComponent, DeckWondersComponent ],
+  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent, TecnologyComponent, CultureComponent, MilitaryComponent, DeckDiscoveryComponent, DeckColoniesComponent, DeckWondersComponent, BoardSComponent, BoardTComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

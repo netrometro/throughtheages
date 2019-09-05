@@ -1,7 +1,14 @@
 .deck {
-  height: 300px;
+  display: inline-block;
+  width: 84px;
+  height: 340px;
   
-  text-align: center;
+  min-height: 340px;
+  overflow-y: auto;
+
+  border: 1px solid black;
+
+  background-color: rgba(0, 255, 0, 0.4);
 }
 
 app-card {
