@@ -23,11 +23,12 @@ import { DeckWondersComponent } from './deck-wonders/deck-wonders.component';
 import { BoardSComponent } from './board-s/board-s.component';
 import { BoardTComponent } from './board-t/board-t.component';
 import { AreaComponent } from './area/area.component';
+import { CardA01Component } from './card/card-a01/card-a01.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, ButtonModule, LightboxModule, AccordionModule, DragDropModule ],
-  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent, TecnologyComponent, CultureComponent, MilitaryComponent, DeckDiscoveryComponent, DeckColoniesComponent, DeckWondersComponent, BoardSComponent, BoardTComponent, AreaComponent ],
+  declarations: [ AppComponent, MenubarComponent, TimelineComponent, CardComponent, HandplayerComponent, BoardComponent, TecnologyComponent, CultureComponent, MilitaryComponent, DeckDiscoveryComponent, DeckColoniesComponent, DeckWondersComponent, BoardSComponent, BoardTComponent, AreaComponent, CardA01Component ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

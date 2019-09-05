@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-area',
@@ -11,9 +12,12 @@ export class AreaComponent implements OnInit {
   @Input() image: string = "";
   @Input() colorcube: string = "blue";
 
-  constructor() { }
+  displayImage;
+
+  constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
+    this.displayImage = this.sanitizer.bypassSecurityTrustResourceUrl(`data:image/png;base64, ${this.image}`);
   }
 
 }
